@@ -9,10 +9,10 @@
         "codeigniter4",
         "authentication",
         "user-management",
-	    "library"
+        "library"
     ],
     "require": {
-        "php": ">=7.3.0",
+        "php": ">=7.3.0"
     },
     "require-dev": {
         "codeigniter4/framework": "^4.2",
