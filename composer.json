@@ -1,0 +1,38 @@
+{
+    "name": "noraziz/ci4-shield",
+    "type": "library",
+    "description": "Mencoba membangun-ulang library shield yang dibuat oleh pabrikan CodeIgniter4",
+    "homepage": "https://github.com/noraziz",
+    "license": "MIT",
+    "keywords": [
+        "codeigniter",
+        "codeigniter4",
+        "authentication",
+        "user-management",
+	    "library"
+    ],
+    "require": {
+        "php": ">=7.3.0",
+    },
+    "require-dev": {
+        "codeigniter4/framework": "^4.2",
+        "phpunit/phpunit": "^9.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "noraziz\\ci4-shield\\": "src/"
+        },
+        "exclude-from-classmap": [
+            "**/Database/Migrations/**"
+        ]
+    },
+    "scripts": {
+        "test": "phpunit"
+    },
+    "authors": [
+        {
+            "name": "Nor Aziz",
+            "homepage": "https://github.com/noraziz"
+        }
+    ]
+}
