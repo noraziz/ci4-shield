@@ -20,15 +20,22 @@
     },
     "autoload": {
         "psr-4": {
-            "noraziz\\ci4-shield\\": "src/"
+            "noraziz\\ci4shield\\": "src/"
         },
         "exclude-from-classmap": [
             "**/Database/Migrations/**"
         ]
     },
+    "autoload-dev": {
+        "psr-4": {
+          "noraziz\\ci4shield\\": "src"
+        }
+    },
     "scripts": {
         "test": "phpunit"
     },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
     "authors": [
         {
             "name": "Nor Aziz",
